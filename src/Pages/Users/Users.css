@@ -1,0 +1,65 @@
+/* Users component styles */
+.user-table-container {
+  width: 100vh; /* Set the width of the container to maintain table width */
+  margin: 10 auto; /* Center the table horizontally */
+  
+}
+
+.user-table {
+  width: 100%; 
+  border-collapse: collapse;
+  margin: 0; /* Reset margin */
+}
+
+.user-table th,
+.user-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.user-table th {
+  background-color: #f2f2f2;
+}
+
+.user-table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.user-table input {
+  width: 100px;
+  padding: 5px;
+  margin: 0;
+}
+
+.user-table button.delete,
+.user-table button.update {
+  padding: 8px 12px;
+  margin-left: 10px;
+  cursor: pointer;
+  border: none;
+  border-radius: 4px;
+}
+
+.user-table button.delete {
+  background-color: #dc3545; /* Red color for delete button */
+  color: white;
+}
+
+.user-table button.update {
+  background-color: #007bff; /* Blue color for update button */
+  color: white;
+}
+
+.user-table button:hover {
+  opacity: 0.8; /* Reduce opacity on button hover for better interaction */
+}
+
+.user-table button.delete:hover {
+  background-color: #c82333; /* Darker red on delete button hover */
+}
+
+.user-table button.update:hover {
+  background-color: #0056b3; /* Darker blue on update button hover */
+}
+

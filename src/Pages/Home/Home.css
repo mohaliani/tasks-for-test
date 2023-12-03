@@ -1,0 +1,23 @@
+.Home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.chartContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.chartItem {
+  width: calc(33.33% - 20px); /* Adjust width as needed */
+  margin: 10px;
+}
+h1{
+  text-align: center;
+  font-size: 50px;
+  font-weight: 700;
+  color: #000000;
+  margin-bottom: 20px;
+}
